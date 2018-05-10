@@ -21,8 +21,8 @@ class EmailParser
           parse_array << e
         end
       end
-      parse_array
     end
+    parse_array
   end
   
 end
