@@ -20,8 +20,8 @@ class EmailParser
         if parse_array.include?(e) == false
           parse_array << e
         end
-        parse_array
       end
+      parse_array
     end
   end
   
