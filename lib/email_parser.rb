@@ -13,11 +13,11 @@ class EmailParser
   def parse
     parse_array = []
     emails = @string.split(/,*\s+/)
-      parse_array.each do |e|
+      emails.each do |e|
       if parse_array == nil
         parse_array << e
       else
-        if parse_array.detect(e) == false
+        if parse_array.include?(e) == false
           parse_array << e
         end
         parse_array
